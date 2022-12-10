@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="turnstile.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_dataflow_monitor_sv " />
+            <top_module name="apatb_turnstile_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0ns"></ZoomStartTime>
+      <ZoomEndTime time="2000ns"></ZoomEndTime>
+      <Cursor1Time time="0ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="HLS Process Summary Group" type="group">
+      <obj_property name="label">HLS Process Summary</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile//AESL_inst_turnstile_activity" type="group">
+         <obj_property name="label">AESL_inst_turnstile_activity</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="UseFullPath">true</obj_property>
+         <obj_property name="ElementShortName">AESL_inst_turnstile_activity</obj_property>
+         <obj_property name="ObjectShortName">AESL_inst_turnstile_activity</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">turquoise</obj_property>
+         <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+         <obj_property name="Render_Data">/apatb_turnstile_top/AESL_inst_turnstile//AESL_inst_turnstile_activity.dataflowTxWaveData.Cycles</obj_property>
+         <obj_property name="Value_Data">/apatb_turnstile_top/AESL_inst_turnstile//AESL_inst_turnstile_activity.dataflowTxWaveData.OutStanding</obj_property>
+         <obj_property name="Detail_Data">/apatb_turnstile_top/AESL_inst_turnstile//AESL_inst_turnstile_activity.dataflowTxTooltipData</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/AESL_inst_turnstile_activity" type="protoinst">
+      <obj_property name="ElementShortName">AESL_inst_turnstile_activity</obj_property>
+      <obj_property name="ObjectShortName">AESL_inst_turnstile_activity</obj_property>
+   </wvobject>
+   <wvobject fp_name="AESL_inst_turnstile_group" type="group">
+      <obj_property name="label">AESL_inst_turnstile</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="AESL_inst_turnstile_Handshake_group" type="group">
+         <obj_property name="label">Block-level handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group17" type="group">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group18" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group19" type="group">
+            <obj_property name="label">return(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/brush_ap_ack" type="logic">
+               <obj_property name="ElementShortName">brush_ap_ack</obj_property>
+               <obj_property name="ObjectShortName">brush_ap_ack</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/brush_ap_vld" type="logic">
+               <obj_property name="ElementShortName">brush_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">brush_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/brush" type="array">
+               <obj_property name="ElementShortName">brush[0:0]</obj_property>
+               <obj_property name="ObjectShortName">brush[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/pass_ap_ack" type="logic">
+               <obj_property name="ElementShortName">pass_ap_ack</obj_property>
+               <obj_property name="ObjectShortName">pass_ap_ack</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/pass_ap_vld" type="logic">
+               <obj_property name="ElementShortName">pass_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">pass_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/pass" type="array">
+               <obj_property name="ElementShortName">pass[0:0]</obj_property>
+               <obj_property name="ObjectShortName">pass[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/lock_ap_ack" type="logic">
+               <obj_property name="ElementShortName">lock_ap_ack</obj_property>
+               <obj_property name="ObjectShortName">lock_ap_ack</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/lock_ap_vld" type="logic">
+               <obj_property name="ElementShortName">lock_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">lock_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/lock" type="array">
+               <obj_property name="ElementShortName">lock[0:0]</obj_property>
+               <obj_property name="ObjectShortName">lock[0:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group29" type="group">
+         <obj_property name="label">Block-level IO Handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/ap_idle" type="logic">
+            <obj_property name="ElementShortName">ap_idle</obj_property>
+            <obj_property name="ObjectShortName">ap_idle</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group34" type="group">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/ap_rst" type="logic">
+            <obj_property name="ElementShortName">ap_rst</obj_property>
+            <obj_property name="ObjectShortName">ap_rst</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group36" type="group">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_turnstile_top/AESL_inst_turnstile/ap_clk" type="logic">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

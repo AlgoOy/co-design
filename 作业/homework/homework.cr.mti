@@ -1,0 +1,43 @@
+C:/Users/24073/Desktop/homework/traffic_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/24073/Desktop/homework/traffic_tb.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module traffic_tb
+
+Top level modules:
+	traffic_tb
+
+} {} {}} C:/Users/24073/Desktop/homework/Sequence_Mealy.v {1 {vlog -work work -vopt -stats=none C:/Users/24073/Desktop/homework/Sequence_Mealy.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module sequence_mealy
+
+Top level modules:
+	sequence_mealy
+
+} {} {}} C:/Users/24073/Desktop/homework/Sequence_Mealy_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/24073/Desktop/homework/Sequence_Mealy_tb.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module sequence_mealy_tb
+
+Top level modules:
+	sequence_mealy_tb
+
+} {} {}} C:/Users/24073/Desktop/homework/Sequence_Moore.v {1 {vlog -work work -vopt -stats=none C:/Users/24073/Desktop/homework/Sequence_Moore.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module sequence_moore
+
+Top level modules:
+	sequence_moore
+
+} {} {}} C:/Users/24073/Desktop/homework/traffic.v {1 {vlog -work work -vopt -stats=none C:/Users/24073/Desktop/homework/traffic.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module traffic
+
+Top level modules:
+	traffic
+
+} {} {}} C:/Users/24073/Desktop/homework/Sequence_Moore_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/24073/Desktop/homework/Sequence_Moore_tb.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module sequence_moore_tb
+
+Top level modules:
+	sequence_moore_tb
+
+} {} {}}

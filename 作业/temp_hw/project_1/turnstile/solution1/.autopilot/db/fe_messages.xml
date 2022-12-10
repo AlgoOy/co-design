@@ -1,0 +1,54 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_ref.h:678:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="and_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_ref.h:692:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="or_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_ref.h:706:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xor_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/24073/Desktop/temp_hw/project_1/turnstile/solution1/csynth.tcl:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="turnstile" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=turnstile" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/24073/Desktop/temp_hw/project_1/turnstile/solution1/directives.tcl:6:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="turnstile" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=turnstile" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../project_1_src/turnstile.cpp:3:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="turnstile" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_hs port=brush" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../project_1_src/turnstile.cpp:4:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="turnstile" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_hs port=pass" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../project_1_src/turnstile.cpp:5:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="turnstile" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_hs port=lock" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../project_1_src/turnstile.cpp:6:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="turnstile" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_ctrl_hs port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67" msg_body="Inlining function 'ssdm_int&lt;32, true&gt;::ssdm_int(int)' into 'ap_int_base&lt;32, true&gt;::ap_int_base(int)'">
+        <args Callee="ssdm_int&lt;32, true&gt;::ssdm_int(int)" Caller="ap_int_base&lt;32, true&gt;::ap_int_base(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1788:1853" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'bool operator==&lt;1, true&gt;(ap_int_base&lt;1, true&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="bool operator==&lt;1, true&gt;(ap_int_base&lt;1, true&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1788:1850" msg_body="Inlining function 'bool ap_int_base&lt;1, true&gt;::operator==&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const' into 'bool operator==&lt;1, true&gt;(ap_int_base&lt;1, true&gt; const&amp;, int)'">
+        <args Callee="bool ap_int_base&lt;1, true&gt;::operator==&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const" Caller="bool operator==&lt;1, true&gt;(ap_int_base&lt;1, true&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67" msg_body="Inlining function '_ZN8ssdm_intILi1ELb1EEC2EDq1_i' into 'ap_int_base&lt;1, true&gt;::ap_int_base(int)'">
+        <args Callee="_ZN8ssdm_intILi1ELb1EEC2EDq1_i" Caller="ap_int_base&lt;1, true&gt;::ap_int_base(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="../project_1_src/turnstile.cpp:7:11" msg_body="Inlining function 'bool operator==&lt;1, true&gt;(ap_int_base&lt;1, true&gt; const&amp;, int)' into 'turnstile(ap_int&lt;1&gt;*, ap_int&lt;1&gt;*, ap_int&lt;1&gt;*)'">
+        <args Callee="bool operator==&lt;1, true&gt;(ap_int_base&lt;1, true&gt; const&amp;, int)" Caller="turnstile(ap_int&lt;1&gt;*, ap_int&lt;1&gt;*, ap_int&lt;1&gt;*)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="../project_1_src/turnstile.cpp:11:33" msg_body="Inlining function 'bool operator==&lt;1, true&gt;(ap_int_base&lt;1, true&gt; const&amp;, int)' into 'turnstile(ap_int&lt;1&gt;*, ap_int&lt;1&gt;*, ap_int&lt;1&gt;*)'">
+        <args Callee="bool operator==&lt;1, true&gt;(ap_int_base&lt;1, true&gt; const&amp;, int)" Caller="turnstile(ap_int&lt;1&gt;*, ap_int&lt;1&gt;*, ap_int&lt;1&gt;*)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="../project_1_src/turnstile.cpp:11:19" msg_body="Inlining function 'bool operator==&lt;1, true&gt;(ap_int_base&lt;1, true&gt; const&amp;, int)' into 'turnstile(ap_int&lt;1&gt;*, ap_int&lt;1&gt;*, ap_int&lt;1&gt;*)'">
+        <args Callee="bool operator==&lt;1, true&gt;(ap_int_base&lt;1, true&gt; const&amp;, int)" Caller="turnstile(ap_int&lt;1&gt;*, ap_int&lt;1&gt;*, ap_int&lt;1&gt;*)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="../project_1_src/turnstile.cpp:7:26" msg_body="Inlining function 'bool operator==&lt;1, true&gt;(ap_int_base&lt;1, true&gt; const&amp;, int)' into 'turnstile(ap_int&lt;1&gt;*, ap_int&lt;1&gt;*, ap_int&lt;1&gt;*)'">
+        <args Callee="bool operator==&lt;1, true&gt;(ap_int_base&lt;1, true&gt; const&amp;, int)" Caller="turnstile(ap_int&lt;1&gt;*, ap_int&lt;1&gt;*, ap_int&lt;1&gt;*)"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

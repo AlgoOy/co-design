@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Nov 19 18:09:06 2022
+# Process ID: 86420
+# Current directory: C:/Users/24073/Desktop/temp_hw/project_1/turnstile/solution1/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/turnstile/xsim_script.tcl}
+# Log file: C:/Users/24073/Desktop/temp_hw/project_1/turnstile/solution1/sim/verilog/xsim.log
+# Journal file: C:/Users/24073/Desktop/temp_hw/project_1/turnstile/solution1/sim/verilog\xsim.jou
+# Running On: AlgoOy, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 34204 MB
+#-----------------------------------------------------------
+source xsim.dir/turnstile/xsim_script.tcl
+# xsim {turnstile} -view {{turnstile_dataflow_ana.wcfg}} -tclbatch {turnstile.tcl} -protoinst {turnstile.protoinst}
+INFO: [Wavedata 42-565] Reading protoinst file turnstile.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_turnstile_top/AESL_inst_turnstile//AESL_inst_turnstile_activity
+Time resolution is 1 ps
+open_wave_config turnstile_dataflow_ana.wcfg
+source turnstile.tcl
+## log_wave [get_objects -filter {type == in_port || type == out_port || type == inout_port || type == port} /apatb_turnstile_top/AESL_inst_turnstile/*]
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set return_group [add_wave_group return(wire) -into $cinputgroup]
+## add_wave /apatb_turnstile_top/AESL_inst_turnstile/brush_ap_ack -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_turnstile_top/AESL_inst_turnstile/brush_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_turnstile_top/AESL_inst_turnstile/brush -into $return_group -radix hex
+## add_wave /apatb_turnstile_top/AESL_inst_turnstile/pass_ap_ack -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_turnstile_top/AESL_inst_turnstile/pass_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_turnstile_top/AESL_inst_turnstile/pass -into $return_group -radix hex
+## add_wave /apatb_turnstile_top/AESL_inst_turnstile/lock_ap_ack -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_turnstile_top/AESL_inst_turnstile/lock_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_turnstile_top/AESL_inst_turnstile/lock -into $return_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake" -into $designtopgroup]
+## add_wave /apatb_turnstile_top/AESL_inst_turnstile/ap_start -into $blocksiggroup
+## add_wave /apatb_turnstile_top/AESL_inst_turnstile/ap_done -into $blocksiggroup
+## add_wave /apatb_turnstile_top/AESL_inst_turnstile/ap_idle -into $blocksiggroup
+## add_wave /apatb_turnstile_top/AESL_inst_turnstile/ap_ready -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_turnstile_top/AESL_inst_turnstile/ap_rst -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_turnstile_top/AESL_inst_turnstile/ap_clk -into $clockgroup
+## save_wave_config turnstile.wcfg
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 2 [n/a] @ "125000"
+// RTL Simulation : 1 / 2 [n/a] @ "145000"
+// RTL Simulation : 2 / 2 [n/a] @ "155000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 215 ns : File "C:/Users/24073/Desktop/temp_hw/project_1/turnstile/solution1/sim/verilog/turnstile.autotb.v" Line 202
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Nov 19 18:09:09 2022...

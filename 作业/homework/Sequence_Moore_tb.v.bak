@@ -1,0 +1,61 @@
+`timescale 1ns/100ps
+module sequence_moore_tb;
+	reg zero,one,clk,reset;
+	wire out;
+	always #10 clk=~clk;
+	initial
+		begin
+			clk=0;
+			reset=0;
+			zero=0;
+			one=0;
+			#20 reset=1;
+			#20 reset=0;
+			#20 zero=1;
+			#20 zero=0;
+			#20 one=1;
+			#20 one=0;
+			#20 one=1;
+			#20 one=0;
+			#20 one=1;
+			#20 one=0;
+			#20 one=1;
+			#20 one=0;
+			#20 zero=1;
+			#20 zero=0;
+			#20 reset=1;
+			#20 reset=0;
+			#20 zero=1;
+			#20 zero=0;
+			#20 zero=1;
+			#20 zero=0;
+			#20 one=1;
+			#20 one=0;
+			#20 one=1;
+			#20 one=0;
+			#20 zero=1;
+			#20 zero=0;
+			#20 zero=1;
+			#20 zero=0;
+			#20 reset=1;
+			#20 reset=0;
+			#20 one=1;
+			#20 one=0;
+			#20 one=1;
+			#20 one=0;
+			#20 one=1;
+			#20 one=0;
+			#20 one=1;
+			#20 one=0;
+			#20 one=1;
+			#20 one=0;
+			#20 zero=1;
+			#20 zero=0;
+			#20 one=1;
+			#20 one=0;
+			#20 zero=1;
+			#20 zero=0;
+		end
+	sequence_moore
+	sequence_moore(.zero(zero),.one(one),.clk(clk),.reset(reset),.out(out));
+endmodule 

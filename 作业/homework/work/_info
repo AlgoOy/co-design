@@ -1,0 +1,165 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_10.5/examples
+T_opt
+!s110 1666256749
+Vj6lMU64OVJKX5WGgH63nW2
+04 10 4 work traffic_tb fast 0
+=1-84a9380fa81e-63510f6d-2c8-8298
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.5;63
+T_opt1
+!s110 1666241787
+VFo0lUfd2BRJX4VNI?DZW_0
+04 17 4 work sequence_mealy_tb fast 0
+=1-84a9380fa81e-6350d4fb-23c-72d4
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1666249545
+VnH:aKfb2ZG9`<3CA<Xco`2
+04 7 4 work traffic fast 0
+=1-84a9380fa81e-6350f349-a5-2084
+R1
+R2
+n@_opt2
+R3
+R0
+vsequence_mealy
+Z4 !s110 1666241775
+!i10b 1
+!s100 GVnU80JjQQ06V1g7KoAnf2
+I0:kJf7_@n_ZXSebQmeFbn1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dC:/Users/24073/Desktop/homework
+w1666241768
+8C:/Users/24073/Desktop/homework/Sequence_Mealy.v
+FC:/Users/24073/Desktop/homework/Sequence_Mealy.v
+L0 1
+Z7 OL;L;10.5;63
+r1
+!s85 0
+31
+Z8 !s108 1666241775.000000
+!s107 C:/Users/24073/Desktop/homework/Sequence_Mealy.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/24073/Desktop/homework/Sequence_Mealy.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vsequence_mealy_tb
+R4
+!i10b 1
+!s100 n9ORT9e;TgJggkMH:O6eV3
+I[2NK^8FLh[o9oHBmT686E1
+R5
+R6
+w1666241716
+8C:/Users/24073/Desktop/homework/Sequence_Mealy_tb.v
+FC:/Users/24073/Desktop/homework/Sequence_Mealy_tb.v
+L0 2
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/24073/Desktop/homework/Sequence_Mealy_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/24073/Desktop/homework/Sequence_Mealy_tb.v|
+!i113 0
+R9
+R2
+vsequence_moore
+!s110 1666237528
+!i10b 1
+!s100 >E]^BEF>N4:OzaZccYfl40
+I[gQX4H4hVA4emK8gzKD[=1
+R5
+R6
+w1666237503
+8C:/Users/24073/Desktop/homework/Sequence_Moore.v
+FC:/Users/24073/Desktop/homework/Sequence_Moore.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1666237528.000000
+!s107 C:/Users/24073/Desktop/homework/Sequence_Moore.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/24073/Desktop/homework/Sequence_Moore.v|
+!i113 0
+R9
+R2
+vsequence_moore_tb
+!s110 1666201908
+!i10b 1
+!s100 Ck9[5eG_>@Y08dS1TkYa21
+I`Dh>`MQ5DLCF4?USlf[H?1
+R5
+R6
+w1666201762
+8C:/Users/24073/Desktop/homework/Sequence_Moore_tb.v
+FC:/Users/24073/Desktop/homework/Sequence_Moore_tb.v
+L0 2
+R7
+r1
+!s85 0
+31
+!s108 1666201908.000000
+!s107 C:/Users/24073/Desktop/homework/Sequence_Moore_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/24073/Desktop/homework/Sequence_Moore_tb.v|
+!i113 0
+R9
+R2
+vtraffic
+!s110 1666256287
+!i10b 1
+!s100 b`Q@34Ym8>68A?UHaNnMR1
+I5ZhZfdjl<mS;AoTiU;D?I2
+R5
+R6
+w1666256283
+8C:/Users/24073/Desktop/homework/traffic.v
+FC:/Users/24073/Desktop/homework/traffic.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1666256287.000000
+!s107 C:/Users/24073/Desktop/homework/traffic.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/24073/Desktop/homework/traffic.v|
+!i113 0
+R9
+R2
+vtraffic_tb
+!s110 1666256746
+!i10b 1
+!s100 njSkMH4[g47@<XS3BD91J2
+I`MPdCO1_]AJUJcd0G71b01
+R5
+R6
+w1666256725
+8C:/Users/24073/Desktop/homework/traffic_tb.v
+FC:/Users/24073/Desktop/homework/traffic_tb.v
+L0 2
+R7
+r1
+!s85 0
+31
+!s108 1666256745.000000
+!s107 C:/Users/24073/Desktop/homework/traffic_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/24073/Desktop/homework/traffic_tb.v|
+!i113 0
+R9
+R2

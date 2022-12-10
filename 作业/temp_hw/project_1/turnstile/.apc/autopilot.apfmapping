@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="turnstile.cpp" path="C:\Users\24073\Desktop\temp_hw\project_1_src\turnstile.cpp"/>
+    <originFiles name="turnstile.h" path="C:\Users\24073\Desktop\temp_hw\project_1_src\turnstile.h"/>
+  </source>
+  <testbench>
+    <originFiles name="turnstile_tb.cpp" path="C:\Users\24073\Desktop\temp_hw\project_1_src\turnstile_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
