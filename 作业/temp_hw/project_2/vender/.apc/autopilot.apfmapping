@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="vender.cpp" path="C:\Users\24073\Desktop\temp_hw\project_2_src\vender.cpp"/>
+    <originFiles name="vender.h" path="C:\Users\24073\Desktop\temp_hw\project_2_src\vender.h"/>
+  </source>
+  <testbench>
+    <originFiles name="vender_tb.cpp" path="C:\Users\24073\Desktop\temp_hw\project_2_src\vender_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

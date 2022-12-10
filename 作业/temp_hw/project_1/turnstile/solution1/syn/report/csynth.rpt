@@ -1,0 +1,99 @@
+
+
+================================================================
+== Synthesis Summary Report of 'turnstile'
+================================================================
++ General Information: 
+    * Date:           Sat Nov 19 18:08:27 2022
+    * Version:        2022.2 (Build 3670227 on Oct 13 2022)
+    * Project:        turnstile
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg484-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-------------+------+------+---------+--------+----------+---------+------+----------+------+----+---------+----+-----+
+    |   Modules   | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |    |         |    |     |
+    |   & Loops   | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP|    FF   | LUT| URAM|
+    +-------------+------+------+---------+--------+----------+---------+------+----------+------+----+---------+----+-----+
+    |+ turnstile  |     -|  7.30|        0|   0.000|         -|        1|     -|        no|     -|   -|  1 (~0%)|   -|    -|
+    +-------------+------+------+---------+--------+----------+---------+------+----------+------+----+---------+----+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* Other Ports
++-----------+-------+----------+
+| Interface | Mode  | Bitwidth |
++-----------+-------+----------+
+| brush     | ap_hs | 1        |
+| lock      | ap_hs | 1        |
+| pass      | ap_hs | 1        |
++-----------+-------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst    | reset      | ap_rst                            |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+------------+
+| Argument | Direction | Datatype   |
++----------+-----------+------------+
+| lock     | unused    | ap_int<1>* |
+| pass     | unused    | ap_int<1>* |
+| brush    | unused    | ap_int<1>* |
++----------+-----------+------------+
+
+* SW-to-HW Mapping
++----------+--------------+---------+
+| Argument | HW Interface | HW Type |
++----------+--------------+---------+
+| lock     | lock         | port    |
+| lock     | lock_ap_vld  | port    |
+| lock     | lock_ap_ack  | port    |
+| pass     | pass         | port    |
+| pass     | pass_ap_vld  | port    |
+| pass     | pass_ap_ack  | port    |
+| brush    | brush        | port    |
+| brush    | brush_ap_vld | port    |
+| brush    | brush_ap_ack | port    |
++----------+--------------+---------+
+
+
+================================================================
+== Bind Op Report
+================================================================
+  No bind op info in design
+
+================================================================
+== Bind Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+-----------------------------+-------------------------------------------------------+
+| Type      | Options                     | Location                                              |
++-----------+-----------------------------+-------------------------------------------------------+
+| interface | mode=ap_hs port=brush       | ../project_1_src/turnstile.cpp:3 in turnstile, brush  |
+| interface | mode=ap_hs port=pass        | ../project_1_src/turnstile.cpp:4 in turnstile, pass   |
+| interface | mode=ap_hs port=lock        | ../project_1_src/turnstile.cpp:5 in turnstile, lock   |
+| interface | mode=ap_ctrl_hs port=return | ../project_1_src/turnstile.cpp:6 in turnstile, return |
++-----------+-----------------------------+-------------------------------------------------------+
+
+

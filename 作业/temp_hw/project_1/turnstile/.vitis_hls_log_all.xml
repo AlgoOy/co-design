@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'turnstile/brush_ap_ack' to 0." projectName="turnstile" solutionName="solution1" date="2022-11-19T18:08:27.427+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'turnstile/brush_ap_ack' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="turnstile" solutionName="solution1" date="2022-11-19T18:08:27.422+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'turnstile/brush_ap_vld' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="turnstile" solutionName="solution1" date="2022-11-19T18:08:27.417+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'turnstile/brush' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="turnstile" solutionName="solution1" date="2022-11-19T18:08:27.409+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'turnstile/pass_ap_ack' to 0." projectName="turnstile" solutionName="solution1" date="2022-11-19T18:08:27.406+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'turnstile/pass_ap_ack' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="turnstile" solutionName="solution1" date="2022-11-19T18:08:27.402+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'turnstile/pass_ap_vld' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="turnstile" solutionName="solution1" date="2022-11-19T18:08:27.399+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'turnstile/pass' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="turnstile" solutionName="solution1" date="2022-11-19T18:08:27.396+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'turnstile/lock_ap_ack' to 0." projectName="turnstile" solutionName="solution1" date="2022-11-19T18:08:27.391+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'turnstile/lock_ap_ack' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="turnstile" solutionName="solution1" date="2022-11-19T18:08:27.388+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'turnstile/lock_ap_vld' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="turnstile" solutionName="solution1" date="2022-11-19T18:08:27.384+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'turnstile/lock' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="turnstile" solutionName="solution1" date="2022-11-19T18:08:27.380+0800" type="Warning"/>
+        <logs message="WARNING: [SYNCHK 200-77] The top function 'turnstile' (../project_1_src/turnstile.cpp:2) has no outputs. Possible cause(s) are: (1) Output parameters are passed by value; (2) intended outputs (parameters or global variables) are never written; (3) there are infinite loops." projectName="turnstile" solutionName="solution1" date="2022-11-19T18:08:27.120+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

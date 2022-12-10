@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1668852507452">
+  <ports id="1" name="lock" type="PortType" originalName="lock.V" coreId="0" bitwidth="1"/>
+  <ports id="2" name="pass" type="PortType" originalName="pass.V" coreId="0" bitwidth="1"/>
+  <ports id="3" name="brush" type="PortType" originalName="brush.V" coreId="0" bitwidth="1"/>
+  <blocks id="13" name="turnstile" type="BlockType">
+    <node_objs xsi:type="cdfg:CdfgNode" id="12" name="_ln15" lineNumber="15" fileName="../project_1_src/turnstile.cpp" fileDirectory=".." coreId="0" contextFuncName="turnstile" opcode="ret" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../project_1_src/turnstile.cpp" linenumber="15" fileDirectory="C:\Users\24073\Desktop\temp_hw\project_1" functionName="turnstile"/>
+    </node_objs>
+    <fileValidLineNumbers fileName="../project_1_src/turnstile.cpp">
+      <validLinenumbers>15</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <ScheduleInfo time="0"/>
+  <ioPorts name="brush"/>
+  <ioPorts name="lock"/>
+  <ioPorts name="pass"/>
+  <fsm>
+    <states id="1">
+      <operations id="4" stage="1" latency="1"/>
+      <operations id="5" stage="1" latency="1"/>
+      <operations id="6" stage="1" latency="1"/>
+      <operations id="7" stage="1" latency="1"/>
+      <operations id="8" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+    </states>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="turnstile" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>13</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

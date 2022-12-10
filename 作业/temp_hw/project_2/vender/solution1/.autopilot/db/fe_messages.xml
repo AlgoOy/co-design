@@ -1,0 +1,48 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_ref.h:678:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="and_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_ref.h:692:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="or_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_ref.h:706:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xor_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/24073/Desktop/temp_hw/project_2/vender/solution1/csynth.tcl:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="balance" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=balance" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67" msg_body="Inlining function 'ssdm_int&lt;32, true&gt;::ssdm_int(int)' into 'ap_int_base&lt;32, true&gt;::ap_int_base(int)'">
+        <args Callee="ssdm_int&lt;32, true&gt;::ssdm_int(int)" Caller="ap_int_base&lt;32, true&gt;::ap_int_base(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1788:1853" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'bool operator==&lt;3, true&gt;(ap_int_base&lt;3, true&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="bool operator==&lt;3, true&gt;(ap_int_base&lt;3, true&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1788:1850" msg_body="Inlining function 'bool ap_int_base&lt;3, true&gt;::operator==&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const' into 'bool operator==&lt;3, true&gt;(ap_int_base&lt;3, true&gt; const&amp;, int)'">
+        <args Callee="bool ap_int_base&lt;3, true&gt;::operator==&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const" Caller="bool operator==&lt;3, true&gt;(ap_int_base&lt;3, true&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67" msg_body="Inlining function '_ZN8ssdm_intILi3ELb1EEC2EDq3_i' into 'ap_int_base&lt;3, true&gt;::ap_int_base(int)'">
+        <args Callee="_ZN8ssdm_intILi3ELb1EEC2EDq3_i" Caller="ap_int_base&lt;3, true&gt;::ap_int_base(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67" msg_body="Inlining function '_ZN8ssdm_intILi2ELb1EEC2EDq2_i' into 'ap_int_base&lt;2, true&gt;::ap_int_base(int)'">
+        <args Callee="_ZN8ssdm_intILi2ELb1EEC2EDq2_i" Caller="ap_int_base&lt;2, true&gt;::ap_int_base(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="../project_2_src/vender.cpp:3:10" msg_body="Inlining function 'bool operator==&lt;3, true&gt;(ap_int_base&lt;3, true&gt; const&amp;, int)' into 'balance(ap_int&lt;3&gt;*, ap_int&lt;2&gt;, ap_int&lt;2&gt;*)'">
+        <args Callee="bool operator==&lt;3, true&gt;(ap_int_base&lt;3, true&gt; const&amp;, int)" Caller="balance(ap_int&lt;3&gt;*, ap_int&lt;2&gt;, ap_int&lt;2&gt;*)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="../project_2_src/vender.cpp:32:10" msg_body="Inlining function 'ap_int_base&lt;2, true&gt;::operator long long() const' into 'balance(ap_int&lt;3&gt;*, ap_int&lt;2&gt;, ap_int&lt;2&gt;*)'">
+        <args Callee="ap_int_base&lt;2, true&gt;::operator long long() const" Caller="balance(ap_int&lt;3&gt;*, ap_int&lt;2&gt;, ap_int&lt;2&gt;*)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="../project_2_src/vender.cpp:31:15" msg_body="Inlining function 'bool operator==&lt;3, true&gt;(ap_int_base&lt;3, true&gt; const&amp;, int)' into 'balance(ap_int&lt;3&gt;*, ap_int&lt;2&gt;, ap_int&lt;2&gt;*)'">
+        <args Callee="bool operator==&lt;3, true&gt;(ap_int_base&lt;3, true&gt; const&amp;, int)" Caller="balance(ap_int&lt;3&gt;*, ap_int&lt;2&gt;, ap_int&lt;2&gt;*)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="../project_2_src/vender.cpp:17:10" msg_body="Inlining function 'ap_int_base&lt;2, true&gt;::operator long long() const' into 'balance(ap_int&lt;3&gt;*, ap_int&lt;2&gt;, ap_int&lt;2&gt;*)'">
+        <args Callee="ap_int_base&lt;2, true&gt;::operator long long() const" Caller="balance(ap_int&lt;3&gt;*, ap_int&lt;2&gt;, ap_int&lt;2&gt;*)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="../project_2_src/vender.cpp:16:15" msg_body="Inlining function 'bool operator==&lt;3, true&gt;(ap_int_base&lt;3, true&gt; const&amp;, int)' into 'balance(ap_int&lt;3&gt;*, ap_int&lt;2&gt;, ap_int&lt;2&gt;*)'">
+        <args Callee="bool operator==&lt;3, true&gt;(ap_int_base&lt;3, true&gt; const&amp;, int)" Caller="balance(ap_int&lt;3&gt;*, ap_int&lt;2&gt;, ap_int&lt;2&gt;*)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="../project_2_src/vender.cpp:4:10" msg_body="Inlining function 'ap_int_base&lt;2, true&gt;::operator long long() const' into 'balance(ap_int&lt;3&gt;*, ap_int&lt;2&gt;, ap_int&lt;2&gt;*)'">
+        <args Callee="ap_int_base&lt;2, true&gt;::operator long long() const" Caller="balance(ap_int&lt;3&gt;*, ap_int&lt;2&gt;, ap_int&lt;2&gt;*)"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+
