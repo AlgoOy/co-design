@@ -3,4 +3,4 @@ project(hw11)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(hw11 MMMuAAA.cpp)
+add_executable(hw11 MMMuSAA.cpp)
